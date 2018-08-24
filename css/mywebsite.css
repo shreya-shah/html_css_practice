@@ -1,0 +1,23 @@
+.wrap{
+    background-color: red;
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-content{
+    background-color:pink;
+    float: left;
+    width: 70%;
+}
+.main-content, aside{
+    height: 600px;
+}
+aside{
+    background-color: aquamarine;
+    float: left;
+    width: 30%;
+}
+aside ul{
+    list-style: none;
+}
