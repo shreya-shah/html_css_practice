@@ -1,0 +1,12 @@
+div{
+    border: 1px solid red;  
+}
+
+.flex-container{
+    border: 1px solid rebeccapurple;
+    display: flex; 
+}
+
+.flex-item{
+    height: 50px;
+}
