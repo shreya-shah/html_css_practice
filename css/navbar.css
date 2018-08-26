@@ -10,6 +10,21 @@ nav{
     top: 0px;
 }
 
+#logo-text{
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+nav ul{
+    position: relative;
+    text-align: right;
+    right: 5%;
+}
+
 nav li{
     list-style: none;
     display: inline;
@@ -19,6 +34,13 @@ nav li{
 nav a{
     color: white;
     text-decoration: none;
+}
+
+nav>a{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 30px;
 }
 
 nav a:hover{
@@ -36,4 +58,16 @@ nav a:hover{
 .flex-item{
     width: 300px;
     padding: 1em;
+}
+
+@media only screen and (min-width:600px){
+    #nav-toggle{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px){
+    nav>ul>li>a{
+        display: none;
+    }
 }
