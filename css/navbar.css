@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #333;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    padding: 0.5em;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #777;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.flex-item{
+    width: 300px;
+    padding: 1em;
+}

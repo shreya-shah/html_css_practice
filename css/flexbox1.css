@@ -5,6 +5,7 @@ div{
 .flex-container{
     border: 1px solid rebeccapurple;
     display: flex; 
+    justify-content: space-evenly;
 }
 
 .flex-item{
